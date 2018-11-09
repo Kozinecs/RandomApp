@@ -42,6 +42,16 @@ body {
   justify-content: center;
 }
 
+.text-over {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 800;
+  position: absolute;
+  text-align: center;
+  left: 20%;
+  top: 8%;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -114,6 +124,15 @@ img.post-image {
   max-height: auto;
   margin-left: 15px;
 }
+
+ .star-icon {
+  margin-right: 15px;
+}
+
+.loupe-icon {
+  margin-left: auto;
+}
+
 .post-footer {
   display: flex;
   width: 100%;
@@ -147,13 +166,13 @@ img.nav-img {
 .profile-header {
   display: flex;
   justify-content: flex-start;
+  flex-direction: row-reverse;
 }
 
 .profile-pic {
   width: 105px;
   height: 105px;
   object-fit: cover;
-  border-radius: 50%;
   border: 1px solid #7A7A7A;
   margin: 10px 10px 5px 15px;
 }
